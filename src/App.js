@@ -54,6 +54,7 @@ function App() {
       task.id === id ? {...task,reminder: 
       !task.reminder }: task))
   }
+   
 
   return (
     <div className="container">
